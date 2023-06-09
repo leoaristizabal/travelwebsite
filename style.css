@@ -83,3 +83,61 @@ html{
 body{background: var(--white);}
 
 /*End Root*/
+
+/*Reused Style*/
+
+.container { padding-inline: 15px;}
+
+
+/*-----Header------*/
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 61px;
+    z-index: 4;
+}
+
+.header-top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: var(--transition);
+    border-bottom: 1px solid solid hsla(0, 0%, 100%, 0.1);
+    padding-block: 15px;
+    z-index: 1;
+    background: var(--gunmetal);
+}
+
+.header.active .header-top{
+    position: fixed;
+    background: var(--gunmetal);
+}
+
+.header-top .container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.helpline-box .wrapper {display: none;}
+
+.helpline-box .icon-box {
+    display: inline-block;
+    background: var(--bright-navy-blue);
+    padding: 6px;
+    border-radius: 50%;
+    color: var(--white);
+}
+
+.helpline-box .icon-box ion-icon{
+    --ionicon-stroke-width: 40px
+}
+
+.header-top .logo { margin-inline: auto;}
+
+.header-top .logo img { max-width: 100px;}
