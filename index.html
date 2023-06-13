@@ -122,20 +122,67 @@
     <main>
         <article>
 
-        <!--Hero-->
-        <section class="hero" id="home">
-            <div class="container">
+            <!--Hero-->
+            <section class="hero" id="home">
+                <div class="container">
 
-                <h2 class="h1 hero-title">Journey to explore world</h2>
-                <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, eaque sequi optio nostrum enim alias.</p>
+                    <h2 class="h1 hero-title">Viajes de ensueño a tu alcance</h2>
+                    <p class="hero-text"> ¿Siempre has soñado con explorar destinos exóticos, sumergirte en culturas
+                        fascinantes y disfrutar de experiencias únicas? <br> <br>¡En nuestra agencia de viajes, nos
+                        dedicamos a hacer realidad esos sueños!</p>
 
-                <div class="btn-group">
-                    <button class="btn btn-primary">Ver mas</button>
-                    <button class="btn btn-secondary">Reserva Ahora</button>
+                    <div class="btn-group">
+                        <button class="btn btn-primary">Ver mas</button>
+                        <button class="btn btn-secondary">Reserva Ahora</button>
+                    </div>
                 </div>
-            </div>
 
-        </section>
+            </section>
+
+            <!--tour search-->
+            <section class="tour-search">
+                <div class="container">
+
+                    <form action="" class="tour-search-form">
+
+                        <div class="input-wrapper">
+
+                            <label for="destination" class="input-label">Buscar Destino</label>
+
+                            <input type="text" name="destination" class="input-field" id="destination" required
+                                placeholder="Ingresar Destino">
+
+                        </div>
+
+                        <div class="input-wrapper">
+
+                            <label for="people" class="input-label">Numero de Pasajeros</label>
+
+                            <input type="number" name="people" class="input-field" id="people" required placeholder="No. de Pasajeros">
+
+                        </div>
+
+                        <div class="input-wrapper">
+
+                            <label for="checkin" class="input-label">Fecha Ida</label>
+
+                            <input type="date" name="checkin" class="input-field" id="checkin" required>
+
+                        </div>
+
+                        <div class="input-wrapper">
+
+                            <label for="checkout" class="input-label">Fecha Vuelta</label>
+
+                            <input type="date" name="checkout" class="input-field" id="checkout" required>
+
+                        </div>
+
+                        <button type="submit" class="btn btn-secondary">Buscar</button>
+                    </form>
+
+                </div>
+            </section>
 
         </article>
     </main>
