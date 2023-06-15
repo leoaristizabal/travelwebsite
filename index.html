@@ -23,6 +23,7 @@
     <!--Header-->
 
     <header class="header" data-header>
+
         <div class="overlay" data-overlay></div>
 
         <div class="header-top">
@@ -63,15 +64,18 @@
 
                     <li>
                         <a href="#" class="social-link">
-                            <ion-icon name="logo-facebook"></ion-icon></a>
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
                     </li>
                     <li>
                         <a href="#" class="social-link">
-                            <ion-icon name="logo-twitter"></ion-icon></a>
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
                     </li>
                     <li>
                         <a href="#" class="social-link">
-                            <ion-icon name="logo-youtube"></ion-icon></a>
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
                     </li>
 
                 </ul>
@@ -93,7 +97,7 @@
                             <a href="#home" class="navbar-link" data-nav-link>home</a>
                         </li>
                         <li>
-                            <a href="#home" class="navbar-link" data-nav-link>nosotros</a>
+                            <a href="#" class="navbar-link" data-nav-link>nosotros</a>
                         </li>
                         <li>
                             <a href="#destination" class="navbar-link" data-nav-link>destinos</a>
@@ -139,7 +143,8 @@
 
             </section>
 
-            <!--tour search-->
+
+            <!--Tour search-->
             <section class="tour-search">
                 <div class="container">
 
@@ -149,8 +154,7 @@
 
                             <label for="destination" class="input-label">Buscar Destino</label>
 
-                            <input type="text" name="destination" class="input-field" id="destination" required
-                                placeholder="Ingresar Destino">
+                            <input type="text" name="destination" class="input-field" id="destination" required placeholder="Ingresar Destino">
 
                         </div>
 
@@ -180,6 +184,107 @@
 
                         <button type="submit" class="btn btn-secondary">Buscar</button>
                     </form>
+
+                </div>
+            </section>
+
+            <!--Popular-->
+            <section class="popular" id="destination">
+                <div class="container">
+                    <p class="section-subtitle">Descubre Lugares</p>
+
+                    <h2 class="h2 section-title">Destinos Populares</h2>
+
+                    <p class="section-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eveniet, velit alias dolor accusantium obcaecati perspiciatis ipsam non voluptates quos!
+                    </p>
+                    <ul class="popular-list">
+                        <li>
+                            <div class="popular-card">
+                                <figure class="card-img"><img src="./images/popular-1.jpg" alt="San Miguel, Italia" loading="lazy"></figure>
+
+                            <div class="card-content">
+
+                                <div class="card-rating">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+
+                                <p class="card-subtitle">
+                                    <a href="#">Italia</a>
+                                </p>
+
+                                <h3 class="h3 card-title">
+                                    <a href="#">San Miguel</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum!
+                                </p>
+
+                            </div>
+                        </li>
+                       
+                        <li>
+                            <div class="popular-card">
+                                <figure class="card-img"><img src="./images/popular-2.jpg" alt="Burj Khalifa, Duabi" loading="lazy"></figure>
+
+                                <div class="card-content">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+
+                                <p class="card-subtitle">
+                                    <a href="#">Duabi</a>
+                                </p>
+
+                                <h3 class="h3 card-title">
+                                    <a href="#">Burj Khalifa</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum!
+                                </p>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="popular-card">
+                                <figure class="card-img"><img src="./images/popular-3.jpg" alt="Kyoto Temple, Japan" loading="lazy"></figure>
+
+                                <div class="card-content">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+
+                                <p class="card-subtitle">
+                                    <a href="#">Japan</a>
+                                </p>
+
+                                <h3 class="h3 card-title">
+                                    <a href="#">Kyoto Temple</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum!
+                                </p>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <button class="btn btn-primary">Mas Destinos</button>
 
                 </div>
             </section>
