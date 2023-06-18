@@ -632,3 +632,42 @@ body {
 }
 
 .package .btn { margin-inline:  auto;}
+
+
+/*Galeria de fotos*/
+
+.gallery {
+    padding-block: var(--section-padding);
+}
+
+.gallery-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.gallery-image{
+    width: 100%;
+    height: 100%;
+    border-radius: var(--radius-15);
+    overflow: hidden;
+}
+
+.gallery-item:nth-child(3) {grid-area: 1 / 2 / 3 / 3;}
+
+.gallery-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*Contact*/
+
+.cta{
+    background: var(--bright-navy-blue);
+    padding-block:  var(--section-padding);
+}
+
+.cta :is(.section-subtitle, .section-title, .section-text){ color: var(--white);}
+
+.cta .section-text { font-size: var(--fs-5);}
